@@ -16,7 +16,7 @@ namespace tutorial1
 
             var content = response.Content;
             
-            var regex = new Regex(@"[^@]+@[^\.]+\..+");
+            var regex = new Regex(@"\A(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\Z");
 
             var matches = regex.Matches(content.ToString());
 
