@@ -1,0 +1,10 @@
+/Users/michalarent/RiderProjects/tutorial1/tutorial1/obj/Debug/netcoreapp3.1/tutorial1.csprojAssemblyReference.cache
+/Users/michalarent/RiderProjects/tutorial1/tutorial1/obj/Debug/netcoreapp3.1/tutorial1.AssemblyInfoInputs.cache
+/Users/michalarent/RiderProjects/tutorial1/tutorial1/obj/Debug/netcoreapp3.1/tutorial1.AssemblyInfo.cs
+/Users/michalarent/RiderProjects/tutorial1/tutorial1/bin/Debug/netcoreapp3.1/tutorial1.deps.json
+/Users/michalarent/RiderProjects/tutorial1/tutorial1/bin/Debug/netcoreapp3.1/tutorial1.runtimeconfig.json
+/Users/michalarent/RiderProjects/tutorial1/tutorial1/bin/Debug/netcoreapp3.1/tutorial1.runtimeconfig.dev.json
+/Users/michalarent/RiderProjects/tutorial1/tutorial1/bin/Debug/netcoreapp3.1/tutorial1.dll
+/Users/michalarent/RiderProjects/tutorial1/tutorial1/bin/Debug/netcoreapp3.1/tutorial1.pdb
+/Users/michalarent/RiderProjects/tutorial1/tutorial1/obj/Debug/netcoreapp3.1/tutorial1.dll
+/Users/michalarent/RiderProjects/tutorial1/tutorial1/obj/Debug/netcoreapp3.1/tutorial1.pdb
