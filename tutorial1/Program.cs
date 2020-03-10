@@ -7,18 +7,21 @@ namespace tutorial1
 {
     class Program
     {
+        [STAThread]
+        static void Main()
+        {
+        }
         static async Task Main(string[] args)
         {
-            var url = "https://www.pja.edu.pl";
-            var httpClient = new HttpClient();
-
-            var response = await httpClient.GetAsync(url);
-
-            var content = response.Content;
+            const string URL = @"http://www.pja.edu.pl/";
+            Console.WriteLine("hi");
             
-            var regex = new Regex(@"\A(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\Z");
-
-            var matches = regex.Matches(content.ToString());
+            
+            var httpclient = new HttpClient();
+            var response = await httpclient.GetAsync(URL);
+            var regex = new Regex("[a-z]+[a-z0-9]*@[a-z]+\\.[a-z]+", RegexOptions.IgnoreCase);
+            var responseContent = await response.Content.ReadAsStringAsync();
+            var matches = regex.Matches(responseContent);
 
             foreach (var match in matches)
             {
